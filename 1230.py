@@ -2,10 +2,11 @@
 import random
 items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 random.shuffle(items)
-answer=''
+answer='1234'
 a_count=0 # initial A count
 b_count=0 # initial B count
-st.session_state(answer):
+st.session_state(answer)
+
 for i in range(4):
     answer+=str(items[i])
 while(True):
